@@ -85,7 +85,7 @@
       "desc" : "Hamlet is considered among the most powerful and influential works of world literature, with a story capable of 'seemingly endless retelling and adaptation by others'. It was one of Shakespeare's most popular works during his lifetime and still ranks among his most performed, topping the performance list of the Royal Shakespeare Company and its predecessors in Stratford-upon-Avon since 1879. It has inspired many other writers—from Johann Wolfgang von Goethe and Charles Dickens to James Joyce and Iris Murdoch."
    }, 
    {
-     "id": "henry_iv_part_1", 
+     "id": "hen_iv_1", 
      "filename": "hen_iv_1.json",
      "title": "Henry IV, Part 1",
      "likelyDate": "1597",
@@ -109,8 +109,8 @@
       "desc" : "The play is often seen as an extension of aspects of Henry IV, Part 1, rather than a straightforward continuation of the historical narrative, placing more emphasis on the highly popular character of Falstaff and introducing other comic figures as part of his entourage, including Ancient Pistol, Doll Tearsheet, and Justice Robert Shallow. Several scenes specifically parallel episodes in Part 1."
    }, 
    {
-     "id": "henry_v", 
-     "filename": "",
+     "id": "hen_v", 
+     "filename": "hen_v.json",
      "title": "Henry V",
      "likelyDate": "1599",
 	 "genre" : "history",
@@ -229,8 +229,8 @@
       "desc" : "The Merry Wives of Windsor is a comedy by William Shakespeare first published in 1602, though believed to have been written in or before 1597. The Windsor of the play's title is a reference to the town of Windsor, also the location of Windsor Castle, in Berkshire, England. Though nominally set in the reign of Henry IV or early in the reign of Henry V, the play makes no pretence to exist outside contemporary Elizabethan era English middle class life. It features the character Sir John Falstaff, the fat knight who had previously been featured in Henry IV, Part 1 and Part 2. It has been adapted for the opera at least ten times. The play is one of Shakespeare's lesser-regarded works among literary critics. Tradition has it that The Merry Wives of Windsor was written at the request of Queen Elizabeth I."
    }, 
    {
-     "id": "midsummer_nights_dream", 
-     "filename": "",
+     "id": "dream", 
+     "filename": "dream.json",
      "title": "A Midsummer Night's Dream",
      "likelyDate": "1596",
 	 "genre" : "comedy",
@@ -314,8 +314,8 @@
       "desc" : "Richard III concludes Shakespeare's first tetralogy (also containing Henry VI, Part 1, Henry VI, Part 2, and Henry VI, Part 3) and depicts the Machiavellian rise to power and subsequent short reign of King Richard III of England."
    }, 
    {
-     "id": "romeo_and_juliet", 
-     "filename": "",
+     "id": "r_and_j", 
+     "filename": "r_and_j.json",
      "title": "Romeo and Juliet",
      "likelyDate": "1595",
 	 "genre" : "tragedy",
