@@ -1,4 +1,4 @@
-[
+const content = `[
    {
      "id": "alls_well_that_ends_well", 
      "filename": "",
@@ -409,4 +409,4 @@
 	 "synopsis": "King Leontes becomes paranoid about his wife's fidelity; he imprisons her, kills their son, and banishes their infant daughter; years later, a statue comes to life.",
       "desc" : "Although it was grouped among the comedies, many modern editors have relabelled the play as one of Shakespeare's late romances. Some critics consider it to be one of Shakespeare's 'problem plays' because the first three acts are filled with intense psychological drama, while the last two acts are comic and supply a happy ending"
    }
- ]
+ ]`;

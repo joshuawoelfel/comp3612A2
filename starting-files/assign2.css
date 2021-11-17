@@ -28,6 +28,47 @@ header {
    padding: 15px;
    height: 6vh;
 }
+
+header div {
+  display:inline-block;
+  float:right;
+  align-self:center;
+}
+
+h1 {
+  display:inline-block;
+}
+
+#creditButton {
+  float:right;
+  max-height: 100%;
+  
+}
+
+.credits {
+  position: relative;
+}
+
+/* modified version of this https://sebhastian.com/html-hover-text/ */
+
+#creditMssg {
+  content: "Joshua Woelfel";
+  visibility: hidden;
+  opacity: 1;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
 h1, h2, h3, h4 {
    margin: 0;
    padding: 0;
@@ -78,6 +119,11 @@ section {
    margin: 0 0 0;
    padding: 0;
 }
+
+#playList .selected {
+  font-weight: bold;
+}
+
 #playList ul li {
    margin-top: 5px;
    cursor: pointer;
@@ -109,17 +155,57 @@ button {
    display:       block;
    font-size:     19px;
    text-align:    center; 
-   height: 50px;    
+   height: 50px;
+   cursor: pointer;   
 }
 #btnClose {   
    align-self: center;
+   
 }
 
-fieldset {
+aside {
+  overflow-y:hidden;
+}
+
+fieldset{
    width: 90%;
-   margin-top: 5px;
+   margin-top: 0.1rem;
    border: 1px solid var(--header-text-color);
 }
+
+#synopsis {
+   background-color: var(--aside-bg-color);
+   color: var(--aside-heading-color);
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: start;
+   align-items: flex-start;
+   
+   height: 85vh;
+  text-align: center;
+  position: relative;
+}
+
+#synopsis h2 {
+  display: flex;
+  align-self:center;
+  margin-top: 2.1rem;
+  margin-bottom: 5rem;
+}
+
+#btnViewPlayText {
+  align-self: center;
+  margin-top: 10rem;
+}
+
+ #interface h2 {
+  align-self: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+ }
 
 
 /* ----- styles for play text ------ */
@@ -148,5 +234,67 @@ p.direction {
    font-style: italic;
    display: block;
    margin-top: 12px;
+}
+
+#playDetails h2 {
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 4.5rem;
+  /*background-color: hsl(194deg 30% 75%);*/
+  /*color: #9f2042;*/
+}
+
+#playDetails .textDetails {
+  font-size: 2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #a9a9ba;
+}
+
+#playDetails .selectMssg {
+  margin-top: 7rem;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center;
+  color: #a9a9ba;
+}
+
+#playDetails .description {
+  font-size: 2rem;
+  padding: 1em 1.5em 1em 1.5em;
+  background-color: #f9f9f9;
+  margin-left: 3em;
+  margin-right: 3em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #ececec;
+  text-align: center-left;
+}
+
+#playDetails div {
+  margin-top: 1.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 1.5em;
+}
+
+#playDetails a {
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #ececec;
+  color: hsl(210,50%, 50%);
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-right: 0.2em;
+  font-size: 1rem;
+}
+
+#playDetails a:hover {
+  background-color: #a9a9ba;
+  color: #9f2042;
 }
 

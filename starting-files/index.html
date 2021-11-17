@@ -3,36 +3,38 @@
 <head>
    <meta charset="utf-8"/>  
     <title>COMP 3612</title>   
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assign2.css">
-
+    <script src="plays.json" ></script>
     <script src="assign2.js" ></script> 
 </head>
 <body>
 
 <header>
    <h1>Assign 2 - Shakespeare Play Viewer</h1>
+    <button id="creditButton" class="credits"><span id="creditMssg" class="credits">Joshua Woelfel</span>Credits</button>
 </header>
+
 <main>
 
    <section id="playList">
       <p><label>Sort By: </label>
-      <input type="radio" name="sort" > <label>Name</label> 
+      <input type="radio" name="sort" checked="checked"> <label>Name</label> 
       <input type="radio" name="sort" > <label>Date</label> 
       </p>
       <h3>Available Plays</h3>
       <ul>
-         <li data-id="antony_and_cleopatra">Antony and Cleopatra</li>
-         <li data-id="hamlet">Hamlet</li>
-         <li data-id="jcaesar">Julius Caesar</li>
       </ul>      
    </section>
    
    <aside>
-      
+      <div id="synopsis">
+        <h2></h2>
+        <p></p>
+        <button id="btnViewPlayText">View Play Text</button>
+      </div>
       <fieldset id="interface">
-         <h2>Play title here</h2>
+         <h2></h2>
          <select id="actList"></select>
          <select id="sceneList"></select>      
          <fieldset>
@@ -44,9 +46,20 @@
             <button id="btnHighlight" >Filter</button>
          </fieldset>
       </fieldset>
-
       <button id="btnClose" >Close</button>
    </aside>
+   
+   
+   <section id="playDetails">
+    <h3 class="selectMssg">Select a play to see details</h3>
+    <article>
+      <h2></h2>
+      <p class="textDetails"></p>
+      <p class="description"></p>
+      <div>
+      </div>
+    </article>
+   </section>
 
    <section id="playHere">
         <!-- Note you will need to remove or comment out some of this markup; 
